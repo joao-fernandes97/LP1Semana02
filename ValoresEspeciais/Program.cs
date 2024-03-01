@@ -38,6 +38,11 @@ namespace ValoresEspeciais
 
             Console.WriteLine(double.MaxValue);
             Console.WriteLine(double.MinValue);
+
+            //Special Values
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.NegativeInfinity);
+            Console.WriteLine(float.NaN);
         }
     }
 }
