@@ -31,6 +31,13 @@ namespace ValoresEspeciais
 
             Console.WriteLine(ulong.MaxValue);
             Console.WriteLine(ulong.MinValue);
+
+            //Floating point numbers
+            Console.WriteLine(float.MaxValue);
+            Console.WriteLine(float.MinValue);
+
+            Console.WriteLine(double.MaxValue);
+            Console.WriteLine(double.MinValue);
         }
     }
 }
