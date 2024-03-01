@@ -8,6 +8,7 @@ namespace SmoothOperator
         {
             Console.Write("Insere numero nao-negativo:" );
             string str = Console.ReadLine();
+            byte n = byte.Parse(str);
             
         }
     }
