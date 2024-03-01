@@ -43,6 +43,10 @@ namespace ValoresEspeciais
             Console.WriteLine(double.PositiveInfinity);
             Console.WriteLine(double.NegativeInfinity);
             Console.WriteLine(float.NaN);
+
+            //uint overflow
+            uint ui = uint.MaxValue;
+            Console.WriteLine($"{ui} +1 = {ui+1}");
         }
     }
 }
