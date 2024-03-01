@@ -16,6 +16,9 @@ namespace Cilindro
             
             float vol= MathF.PI*MathF.Pow(r,2)*a;
             Console.WriteLine(vol);
+
+            float surf= 2*MathF.PI*r*(r+a);
+            Console.WriteLine(surf);
         }
     }
 }
