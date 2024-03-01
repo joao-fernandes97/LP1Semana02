@@ -18,6 +18,19 @@ namespace ValoresEspeciais
 
             Console.WriteLine(long.MaxValue);
             Console.WriteLine(long.MinValue);
+
+            //Unsigned whole number types
+            Console.WriteLine(byte.MaxValue);
+            Console.WriteLine(byte.MinValue);
+
+            Console.WriteLine(ushort.MaxValue);
+            Console.WriteLine(ushort.MinValue);
+
+            Console.WriteLine(uint.MaxValue);
+            Console.WriteLine(uint.MinValue);
+
+            Console.WriteLine(ulong.MaxValue);
+            Console.WriteLine(ulong.MinValue);
         }
     }
 }
