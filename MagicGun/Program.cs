@@ -15,10 +15,10 @@ namespace MagicGun
                 if(i%3==0)
                 {
                     Console.Write("Magic Fire! ");
-                }else if(i%5==0)
+                }if(i%5==0)
                 {
-                    Console.Write("Electric Fire! ");
-                }else
+                    Console.Write("Electric Fire!");
+                }if(i%3!=0&&i%5!=0)
                 {
                     Console.Write("Normal fire :/");
                 }
