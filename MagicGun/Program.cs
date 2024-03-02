@@ -11,16 +11,18 @@ namespace MagicGun
             
             for (int i = 1; i <= n; i++)
             {
+                Console.Write($"{i}: ");
                 if(i%3==0)
                 {
-                    Console.WriteLine("Magic Fire!");
+                    Console.Write("Magic Fire! ");
                 }else if(i%5==0)
                 {
-                    Console.WriteLine("Electric Fire!");
+                    Console.Write("Electric Fire! ");
                 }else
                 {
-                    Console.WriteLine("Normal fire :/");
+                    Console.Write("Normal fire :/");
                 }
+                Console.Write("\n");
             }
         }
     }
